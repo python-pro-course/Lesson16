@@ -26,6 +26,7 @@ main.geometry('300x300')  # устанавливаем размер окна
 
 
 def create_account():
+
     login = s_up_login.get()
     password = s_up_pass.get()
     BankAccount(login, password)
